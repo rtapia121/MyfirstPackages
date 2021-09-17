@@ -1,0 +1,19 @@
+{
+    "name": "simplexi/greet",
+    "description": "ejemplo para crear un paquete",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ricardo Tapia",
+            "email": "rtapia@121corp.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Simplexi\\Greet\\": "src/"
+        }
+    },
+    "require": {}
+}
